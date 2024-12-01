@@ -1,0 +1,60 @@
+/* Remove margens e espaçamentos padrão e define o box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo do site */
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2ec011;
+    padding: 30px 40px;
+    border-radius: 10px;
+    max-width: 455px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo do título */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para campos de entrada, botão e seleção */
+input, button, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* Estilo do botão */
+button {
+    font-weight: bold;
+    background-color: #2ec011;
+    transition: opacity 0.3s ease;
+}
+
+/* Efeitos de hover e active no botão */
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+/* Estilo para o resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2ec011;
+}

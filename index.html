@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <h1>Conversor de Moedas 💲</h1>
+    <input type="number" placeholder="Digite o Valor" id="input" required>
+    <select name="fromCurrency" id="from-currency">
+        <option value="real">Real R$</option>
+        <option value="dolar">Dólar $</option>
+    </select>
+    <select name="toCurrency" id="to-currency">
+        <option value="dolar">Dólar $</option>
+        <option value="real">Real R$</option>
+    </select>
+    <button id="botao">CONVERTER</button>
+    <!-- Área onde o resultado será exibido -->
+    <div id="resultado"></div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -40,6 +40,7 @@ button {
     font-weight: bold;
     background-color: #2ec011;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 }
 
 /* Efeitos de hover e active no botão */
